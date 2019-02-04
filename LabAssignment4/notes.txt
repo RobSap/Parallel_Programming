@@ -1,0 +1,33 @@
+He said we can allocate each rank (say 0-4) as seperate arrays using malloc. 
+During their update, the "ghost" cells need to get the info from the other ones.
+
+-set a convergence step, but you CAN set a max number of steps
+
+Make sure each rank sends and recives from the correct ones BEFORE moving on to the next iteration
+
+example
+
+rank0
+send rank1
+send rank2
+recv rank1
+rec rank2
+
+Rank1
+rec rank 0
+rev rank 3
+send rank 0
+send rank 3
+
+rank2
+send rank0
+send rank3
+recv rank0
+recv rank3
+
+
+rank3
+send rank2
+send rank1
+recv rank2
+recv rank1
