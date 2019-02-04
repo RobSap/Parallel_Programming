@@ -28,22 +28,24 @@ This is a parallel image manipulation system. It is used to test various implema
 #### LabAssignment 1
 Using ISPC Compiler from Intel. I did the twirl implementation in serial and parallel. I also include a grayscale implementation, but it currently is commented out. 
 Used: ISPC
-Project Code: [Parallel K-means](https://github.com/RobSap/Parallel_Programming/tree/master/LabAssignment1)
+Project Code: [Swirl](https://github.com/RobSap/Parallel_Programming/tree/master/LabAssignment1)
 
 #### LabAssignment 2
-Using ICC and TBB from Intel
+Using ICC and TBB from Intel, this does a swirl implementation.
 Used: TBB
-Project Code: [Parallel K-means](https://github.com/RobSap/Parallel_Programming/tree/master/LabAssignment2)
+Project Code: [Swirl](https://github.com/RobSap/Parallel_Programming/tree/master/LabAssignment2)
 
 
 #### LabAssignment 3
+Fread in text file, change inputs. This is a image from integer format.
 Used: OpenMP
-Project Code: [Parallel K-means](https://github.com/RobSap/Parallel_Programming/tree/master/LabAssignment3)
+Project Code: [Parallel CPU](https://github.com/RobSap/Parallel_Programming/tree/master/LabAssignment3)
 
 
 #### LabAssignment 4
+This projects demenstrates the Ghost cells idea.
 Used: MPI
-Project Code: [Parallel K-means](https://github.com/RobSap/Parallel_Programming/tree/master/LabAssignment4)
+Project Code: [Ghost Cells](https://github.com/RobSap/Parallel_Programming/tree/master/LabAssignment4)
 
 
 
